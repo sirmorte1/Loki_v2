@@ -1,0 +1,5 @@
+customtkinter
+requests
+psutil
+pycaw>=20251023
+comtypes

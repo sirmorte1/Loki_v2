@@ -1,0 +1,92 @@
+{
+    "settings": {
+        "require_explicit_user_request_for_actions": true,
+        "require_confirmation_for_destructive_actions": true
+    },
+    "tools": {
+        "get_system_info": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "get_resource_usage": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "get_gpu_status": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "get_disk_info": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "get_audio_info": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "get_audio_devices": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "open_app": {
+            "enabled": true,
+            "permission": "request"
+        },
+        "close_app": {
+            "enabled": true,
+            "permission": "confirm"
+        },
+        "open_file": {
+            "enabled": true,
+            "permission": "request"
+        },
+        "find_file": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "list_folder": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "move_file": {
+            "enabled": true,
+            "permission": "confirm"
+        },
+        "rename_file": {
+            "enabled": true,
+            "permission": "confirm"
+        },
+        "delete_file": {
+            "enabled": true,
+            "permission": "confirm"
+        },
+        "set_volume": {
+            "enabled": true,
+            "permission": "request"
+        },
+        "mute_audio": {
+            "enabled": true,
+            "permission": "request"
+        },
+        "unmute_audio": {
+            "enabled": true,
+            "permission": "request"
+        },
+        "switch_audio_device": {
+            "enabled": true,
+            "permission": "request"
+        },
+        "add_reminder": {
+            "enabled": true,
+            "permission": "request"
+        },
+        "list_reminders": {
+            "enabled": true,
+            "permission": "auto"
+        },
+        "cancel_reminder": {
+            "enabled": true,
+            "permission": "request"
+        }
+    }
+}

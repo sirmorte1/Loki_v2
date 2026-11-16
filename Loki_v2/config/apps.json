@@ -1,0 +1,29 @@
+{
+  "apps": {
+    "notepad": {"display_name": "Notepad", "type": "command", "command": ["notepad.exe"]},
+    "calculator": {"display_name": "Calculator", "type": "command", "command": ["calc.exe"]},
+    "file explorer": {"display_name": "File Explorer", "type": "command", "command": ["explorer.exe"]},
+    "terminal": {"display_name": "Terminal", "type": "command", "command": ["wt.exe"]},
+    "command prompt": {"display_name": "Command Prompt", "type": "command", "command": ["cmd.exe"]},
+    "powershell": {"display_name": "PowerShell", "type": "command", "command": ["powershell.exe"]},
+    "paint": {"display_name": "Paint", "type": "command", "command": ["mspaint.exe"]},
+    "task manager": {"display_name": "Task Manager", "type": "command", "command": ["taskmgr.exe"]},
+    "discord": {"display_name": "Discord", "type": "paths", "paths": ["%LOCALAPPDATA%/Discord/Update.exe", "%LOCALAPPDATA%/Discord/Discord.exe"], "args": ["--processStart", "Discord.exe"]},
+    "steam": {"display_name": "Steam", "type": "paths", "paths": ["%PROGRAMFILES(X86)%/Steam/steam.exe", "%PROGRAMFILES%/Steam/steam.exe"]},
+    "obs": {"display_name": "OBS Studio", "type": "paths", "paths": ["%PROGRAMFILES%/obs-studio/bin/64bit/obs64.exe"]},
+    "lunar client": {"display_name": "Lunar Client", "type": "paths", "paths": ["%LOCALAPPDATA%/Programs/Lunar Client/Lunar Client.exe"]},
+    "minecraft": {"display_name": "Minecraft", "type": "paths", "paths": ["%PROGRAMFILES(X86)%/Minecraft Launcher/MinecraftLauncher.exe", "%PROGRAMFILES%/Minecraft Launcher/MinecraftLauncher.exe"]},
+    "spotify": {"display_name": "Spotify", "type": "paths", "paths": ["%APPDATA%/Spotify/Spotify.exe"]},
+    "modrinth": {"display_name": "Modrinth", "type": "paths", "paths": ["%LOCALAPPDATA%/Programs/Modrinth App/Modrinth App.exe", "%LOCALAPPDATA%/Modrinth App/Modrinth App.exe"]},
+    "firefox": {"display_name": "Firefox", "type": "paths", "paths": ["%PROGRAMFILES%/Mozilla Firefox/firefox.exe", "%PROGRAMFILES(X86)%/Mozilla Firefox/firefox.exe"]},
+    "chrome": {"display_name": "Chrome", "type": "paths", "paths": ["%PROGRAMFILES%/Google/Chrome/Application/chrome.exe", "%PROGRAMFILES(X86)%/Google/Chrome/Application/chrome.exe"]},
+    "vs code": {"display_name": "VS Code", "type": "paths", "paths": ["%LOCALAPPDATA%/Programs/Microsoft VS Code/Code.exe"]},
+    "whatsapp": {"display_name": "WhatsApp", "type": "paths", "paths": ["%LOCALAPPDATA%/WhatsApp/WhatsApp.exe"]}
+  },
+  "aliases": {
+    "explorer": "file explorer",
+    "obs studio": "obs",
+    "vscode": "vs code",
+    "visual studio code": "vs code"
+  }
+}

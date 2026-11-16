@@ -1,0 +1,21 @@
+{
+    "ollama_url": "http://localhost:11434/api/generate",
+    "models": {
+        "fast": {
+            "name": "llama3",
+            "purpose": "Fast everyday responses and lightweight tasks"
+        },
+        "reasoning": {
+            "name": "mistral-small3.2:24b",
+            "purpose": "Coding, project creation, debugging, planning, analysis and complex reasoning"
+        },
+        "classifier": {
+            "name": "llama3",
+            "purpose": "Fast routing decisions when the rule engine is uncertain"
+        }
+    },
+    "timeouts": {
+        "generation_seconds": 120,
+        "classifier_seconds": 45
+    }
+}

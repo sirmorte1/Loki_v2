@@ -1,0 +1,95 @@
+{
+    "discord": {
+        "display_name": "Discord",
+        "type": "path",
+        "paths": [
+            "%LOCALAPPDATA%/Discord/Update.exe"
+        ],
+        "arguments": ""
+    },
+    "steam": {
+        "display_name": "Steam",
+        "type": "path",
+        "paths": [
+            "%PROGRAMFILES(X86)%/Steam/steam.exe",
+            "%PROGRAMFILES%/Steam/steam.exe"
+        ],
+        "arguments": ""
+    },
+    "obs": {
+        "display_name": "OBS Studio",
+        "type": "path",
+        "paths": [
+            "%PROGRAMFILES%/obs-studio/bin/64bit/obs64.exe"
+        ],
+        "arguments": ""
+    },
+    "lunar client": {
+        "display_name": "Lunar Client",
+        "type": "path",
+        "paths": [
+            "%LOCALAPPDATA%/Programs/Lunar Client/Lunar Client.exe"
+        ],
+        "arguments": ""
+    },
+    "minecraft": {
+        "display_name": "Minecraft",
+        "type": "path",
+        "paths": [
+            "%PROGRAMFILES(X86)%/Minecraft Launcher/MinecraftLauncher.exe",
+            "%PROGRAMFILES%/Minecraft Launcher/MinecraftLauncher.exe"
+        ],
+        "arguments": ""
+    },
+    "spotify": {
+        "display_name": "Spotify",
+        "type": "path",
+        "paths": [
+            "%APPDATA%/Spotify/Spotify.exe"
+        ],
+        "arguments": ""
+    },
+    "firefox": {
+        "display_name": "Firefox",
+        "type": "path",
+        "paths": [
+            "%PROGRAMFILES%/Mozilla Firefox/firefox.exe",
+            "%PROGRAMFILES(X86)%/Mozilla Firefox/firefox.exe"
+        ],
+        "arguments": ""
+    },
+    "chrome": {
+        "display_name": "Chrome",
+        "type": "path",
+        "paths": [
+            "%PROGRAMFILES%/Google/Chrome/Application/chrome.exe",
+            "%PROGRAMFILES(X86)%/Google/Chrome/Application/chrome.exe"
+        ],
+        "arguments": ""
+    },
+    "vs code": {
+        "display_name": "VS Code",
+        "type": "path",
+        "paths": [
+            "%LOCALAPPDATA%/Programs/Microsoft VS Code/Code.exe"
+        ],
+        "arguments": ""
+    },
+    "visual studio code": {
+        "display_name": "VS Code",
+        "type": "alias",
+        "target": "vs code"
+    },
+    "modrinth": {
+        "display_name": "Modrinth",
+        "type": "command",
+        "command": "modrinth",
+        "arguments": ""
+    },
+    "whatsapp": {
+        "display_name": "WhatsApp",
+        "type": "command",
+        "command": "whatsapp:",
+        "arguments": ""
+    }
+}
